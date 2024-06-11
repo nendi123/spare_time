@@ -64,10 +64,83 @@ class _MyHomePageState extends State<MyHomePage> {
                             fontSize: 32, fontWeight: FontWeight.bold),
                       );
                     },
-                  )
+                  ),
                 ],
               ),
             ),
+            Container(
+              margin: const EdgeInsets.all(10),
+              child: const Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        child: SizedBox(
+                          height: 100,
+                          child: Card(
+                            color: Colors.amber,
+                            child: Text('Maghrib'),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        child: SizedBox(
+                          height: 100,
+                          child: Card(
+                            color: Colors.blue,
+                            child: Text('Isya'),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        child: SizedBox(
+                          height: 100,
+                          child: Card(
+                            color: Colors.red,
+                            child: Text('Subuh'),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        child: SizedBox(
+                          height: 100,
+                          child: Card(
+                            color: Colors.yellow,
+                            child: Text('Dzuhur'),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        child: SizedBox(
+                          height: 100,
+                          child: Card(
+                            color: Colors.green,
+                            child: Text('Ashar'),
+                          ),
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+            )
           ],
         ),
       ),
