@@ -49,8 +49,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const Text('What time is it?',
-                      style:
-                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      )),
                   StreamBuilder(
                     stream: Stream.periodic(const Duration(seconds: 1)),
                     builder: (context, snapshot) {
@@ -61,7 +64,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       return Text(
                         '${hour.padLeft(2, '0')}:${minute.padLeft(2, '0')}:${second.padLeft(2, '0')}',
                         style: const TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
                       );
                     },
                   ),
@@ -84,7 +90,19 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 100,
                           child: Card(
                             color: Colors.amber,
-                            child: Text('Maghrib'),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Text(
+                                  'Maghrib',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -93,7 +111,19 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 100,
                           child: Card(
                             color: Colors.blue,
-                            child: Text('Isya'),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Text(
+                                  'Isya',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       )
@@ -108,7 +138,19 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 100,
                           child: Card(
                             color: Colors.red,
-                            child: Text('Subuh'),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Text(
+                                  'Subuh',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -117,7 +159,19 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 100,
                           child: Card(
                             color: Colors.yellow,
-                            child: Text('Dzuhur'),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Text(
+                                  'Dzuhur',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       )
@@ -132,7 +186,19 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 100,
                           child: Card(
                             color: Colors.green,
-                            child: Text('Ashar'),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Text(
+                                  'Ashar',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),
