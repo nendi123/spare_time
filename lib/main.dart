@@ -101,6 +101,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold),
                                 ),
+                                Text(
+                                  '17.43',
+                                  style: TextStyle(
+                                      fontSize: 26,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ],
                             ),
                           ),
@@ -119,6 +126,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                   'Isya',
                                   style: TextStyle(
                                       fontSize: 20,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  '18.58',
+                                  style: TextStyle(
+                                      fontSize: 26,
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold),
                                 ),
@@ -149,6 +163,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold),
                                 ),
+                                Text(
+                                  '04.36',
+                                  style: TextStyle(
+                                      fontSize: 26,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ],
                             ),
                           ),
@@ -167,6 +188,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                   'Dzuhur',
                                   style: TextStyle(
                                       fontSize: 20,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  '11.52',
+                                  style: TextStyle(
+                                      fontSize: 26,
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold),
                                 ),
@@ -194,6 +222,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                   'Ashar',
                                   style: TextStyle(
                                       fontSize: 20,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  '15.13',
+                                  style: TextStyle(
+                                      fontSize: 26,
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold),
                                 ),
