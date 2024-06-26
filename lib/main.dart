@@ -42,7 +42,18 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             Container(
-              height: 100,
+              color: Colors.green,
+              padding: const EdgeInsets.all(5),
+              alignment: Alignment.bottomLeft,
+              child: const Text(
+                'Assalamualaikum ...',
+                style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+            ),
+            Container(
               color: Colors.green,
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Row(
@@ -179,7 +190,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: SizedBox(
                           height: 100,
                           child: Card(
-                            color: Colors.yellow,
+                            color: Colors.blueGrey,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               mainAxisSize: MainAxisSize.max,
